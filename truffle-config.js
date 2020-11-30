@@ -17,7 +17,6 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
-const path = require("path");
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
@@ -26,7 +25,6 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const mnemonic = "then blush film torch finish timber business talk file feed magnet chronic"
 
 module.exports = {
-  contracts_build_directory: path.join(_dirname, "client/src/contracts"),
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle
